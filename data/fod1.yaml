@@ -1,0 +1,22 @@
+#train: D:\yolo\ultralytics-main\data\train.txt
+#val: D:\yolo\ultralytics-main\data\val.txt
+#test: D:\yolo\ultralytics-main\data\test.txt
+train: D:/yolo/hannan-yolov5-6.1/VOCdevkit/VOC2007/train.txt
+val: D:/yolo/hannan-yolov5-6.1/VOCdevkit/VOC2007/val.txt
+test: D:/yolo/hannan-yolov5-6.1/VOCdevkit/VOC2007/test.txt
+
+# number of classes
+nc: 6
+
+# class names
+#names: ['Hatch']
+names : ['Tongs', 'Screwdriver', 'Wrench', 'Phone', 'Stone', 'person']
+
+
+
+#train: D:\yolo\yolov8\data\Mask_split\train
+#val: D:\yolo\yolov8\data\Mask_split\valid
+#test: D:\yolo\yolov8\data\Mask_split\test
+#names:
+#  0: mask
+# 1: face
